@@ -1,0 +1,10 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2020-06-01 00:02:34 +0800",
+      "minecraft:plains": "2020-06-01 00:02:44 +0800"
+    },
+    "done": false
+  },
+  "DataVersion": 2230
+}
