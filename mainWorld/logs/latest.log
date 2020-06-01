@@ -1,121 +1,500 @@
-[11:39:30] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[11:39:30] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:39:30] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:39:30] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[11:39:30] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[11:39:31] [Server thread/INFO]: Starting minecraft server version 1.15.2
-[11:39:31] [Server thread/INFO]: Loading properties
-[11:39:31] [Server thread/INFO]: Default game type: SURVIVAL
-[11:39:31] [Server thread/INFO]: Generating keypair
-[11:39:31] [Server thread/INFO]: Starting Minecraft server on *:25565
-[11:39:32] [Server thread/INFO]: Using epoll channel type
-[11:39:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:39:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:39:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11:39:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:39:32] [Server thread/INFO]: Preparing level "world"
-[11:39:33] [Server thread/INFO]: Reloading ResourceManager: Default
-[11:40:40] [Server thread/INFO]: Loaded 6 recipes
-[11:40:41] [Server thread/INFO]: Loaded 825 advancements
-[11:40:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[11:40:46] [Server thread/INFO]: Preparing spawn area: 0%
-[11:40:46] [Server thread/INFO]: Preparing spawn area: 0%
-[11:40:46] [Server thread/INFO]: Preparing spawn area: 0%
-[11:40:46] [Server thread/INFO]: Preparing spawn area: 0%
-[11:40:46] [Server thread/INFO]: Preparing spawn area: 0%
-[11:40:46] [Server thread/INFO]: Preparing spawn area: 0%
-[11:40:46] [Server thread/INFO]: Preparing spawn area: 0%
-[11:40:46] [Server thread/INFO]: Preparing spawn area: 0%
-[11:40:46] [Server thread/INFO]: Preparing spawn area: 0%
-[11:40:46] [Server thread/INFO]: Preparing spawn area: 0%
-[11:40:47] [Server thread/INFO]: Preparing spawn area: 19%
-[11:40:47] [Server thread/INFO]: Preparing spawn area: 70%
-[11:40:48] [Server thread/INFO]: Time elapsed: 6308 ms
-[11:40:48] [Server thread/INFO]: Done (75.789s)! For help, type "help"
-[11:40:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[11:42:22] [Server thread/INFO]: Unknown command
-[11:42:22] [Server thread/INFO]: <--[HERE]
-[11:43:06] [Server thread/INFO]: /advancement (grant|revoke)
-[11:43:06] [Server thread/INFO]: /ban <targets> [<reason>]
-[11:43:06] [Server thread/INFO]: /ban-ip <target> [<reason>]
-[11:43:06] [Server thread/INFO]: /banlist [ips|players]
-[11:43:06] [Server thread/INFO]: /bossbar (add|get|list|remove|set)
-[11:43:06] [Server thread/INFO]: /clear [<targets>]
-[11:43:06] [Server thread/INFO]: /clone <begin> <end> <destination> [filtered|masked|replace]
-[11:43:06] [Server thread/INFO]: /data (get|merge|modify|remove)
-[11:43:06] [Server thread/INFO]: /datapack (disable|enable|list)
-[11:43:06] [Server thread/INFO]: /debug (report|start|stop)
-[11:43:06] [Server thread/INFO]: /defaultgamemode (adventure|creative|spectator|survival)
-[11:43:06] [Server thread/INFO]: /deop <targets>
-[11:43:06] [Server thread/INFO]: /difficulty [easy|hard|normal|peaceful]
-[11:43:06] [Server thread/INFO]: /effect (clear|give)
-[11:43:06] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
-[11:43:06] [Server thread/INFO]: /execute (align|anchored|as|at|facing|if|in|positioned|rotated|run|store|unless)
-[11:43:06] [Server thread/INFO]: /experience (add|query|set)
-[11:43:06] [Server thread/INFO]: /fill <from> <to> <block> [destroy|hollow|keep|outline|replace]
-[11:43:06] [Server thread/INFO]: /forceload (add|query|remove)
-[11:43:06] [Server thread/INFO]: /function <name>
-[11:43:06] [Server thread/INFO]: /gamemode (adventure|creative|spectator|survival)
-[11:43:06] [Server thread/INFO]: /gamerule (announceAdvancements|commandBlockOutput|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|keepInventory|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobGriefing|naturalRegeneration|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|spawnRadius|spectatorsGenerateChunks)
-[11:43:06] [Server thread/INFO]: /give <targets> <item> [<count>]
-[11:43:06] [Server thread/INFO]: /help [<command>]
-[11:43:06] [Server thread/INFO]: /kick <targets> [<reason>]
-[11:43:06] [Server thread/INFO]: /kill [<targets>]
-[11:43:06] [Server thread/INFO]: /list [uuids]
-[11:43:06] [Server thread/INFO]: /locate (Buried_Treasure|Desert_Pyramid|EndCity|Fortress|Igloo|Jungle_Pyramid|Mansion|Mineshaft|Monument|Ocean_Ruin|Pillager_Outpost|Shipwreck|Stronghold|Swamp_Hut|Village)
-[11:43:06] [Server thread/INFO]: /loot (give|insert|replace|spawn)
-[11:43:06] [Server thread/INFO]: /me <action>
-[11:43:06] [Server thread/INFO]: /msg <targets> <message>
-[11:43:06] [Server thread/INFO]: /op <targets>
-[11:43:06] [Server thread/INFO]: /pardon <targets>
-[11:43:06] [Server thread/INFO]: /pardon-ip <target>
-[11:43:06] [Server thread/INFO]: /particle <name> [<pos>]
-[11:43:06] [Server thread/INFO]: /playsound <sound> (ambient|block|hostile|master|music|neutral|player|record|voice|weather)
-[11:43:06] [Server thread/INFO]: /recipe (give|take)
-[11:43:06] [Server thread/INFO]: /reload
-[11:43:06] [Server thread/INFO]: /replaceitem (block|entity)
-[11:43:06] [Server thread/INFO]: /save-all [flush]
-[11:43:06] [Server thread/INFO]: /save-off
-[11:43:06] [Server thread/INFO]: /save-on
-[11:43:06] [Server thread/INFO]: /say <message>
-[11:43:06] [Server thread/INFO]: /schedule (clear|function)
-[11:43:06] [Server thread/INFO]: /scoreboard (objectives|players)
-[11:43:06] [Server thread/INFO]: /seed
-[11:43:06] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
-[11:43:06] [Server thread/INFO]: /setidletimeout <minutes>
-[11:43:06] [Server thread/INFO]: /setworldspawn [<pos>]
-[11:43:06] [Server thread/INFO]: /spawnpoint [<targets>]
-[11:43:06] [Server thread/INFO]: /spectate [<target>]
-[11:43:06] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> <respectTeams> <targets>
-[11:43:06] [Server thread/INFO]: /stop
-[11:43:06] [Server thread/INFO]: /stopsound <targets> [*|ambient|block|hostile|master|music|neutral|player|record|voice|weather]
-[11:43:06] [Server thread/INFO]: /summon <entity> [<pos>]
-[11:43:06] [Server thread/INFO]: /tag <targets> (add|list|remove)
-[11:43:06] [Server thread/INFO]: /team (add|empty|join|leave|list|modify|remove)
-[11:43:06] [Server thread/INFO]: /teammsg <message>
-[11:43:06] [Server thread/INFO]: /teleport (<destination>|<location>|<targets>)
-[11:43:06] [Server thread/INFO]: /tell -> msg
-[11:43:06] [Server thread/INFO]: /tellraw <targets> <message>
-[11:43:06] [Server thread/INFO]: /time (add|query|set)
-[11:43:06] [Server thread/INFO]: /title <targets> (actionbar|clear|reset|subtitle|times|title)
-[11:43:06] [Server thread/INFO]: /tm -> teammsg
-[11:43:06] [Server thread/INFO]: /tp -> teleport
-[11:43:06] [Server thread/INFO]: /trigger <objective> [add|set]
-[11:43:06] [Server thread/INFO]: /w -> msg
-[11:43:06] [Server thread/INFO]: /weather (clear|rain|thunder)
-[11:43:06] [Server thread/INFO]: /whitelist (add|list|off|on|reload|remove)
-[11:43:06] [Server thread/INFO]: /worldborder (add|center|damage|get|set|warning)
-[11:43:06] [Server thread/INFO]: /xp -> experience
-[11:43:12] [Server thread/INFO]: huxuem[/182.96.137.255:1214] logged in with entity id 222 at (252.8195091833756, 68.0, -88.51702202453701)
-[11:43:12] [Server thread/INFO]: huxuem joined the game
-[11:43:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2056ms or 41 ticks behind
-[11:43:57] [Server thread/INFO]: huxuem lost connection: Disconnected
-[11:43:57] [Server thread/INFO]: huxuem left the game
-[11:44:14] [Server thread/INFO]: huxuem[/182.96.137.255:1243] logged in with entity id 353 at (252.8195091833756, 68.0, -88.51702202453701)
-[11:44:14] [Server thread/INFO]: huxuem joined the game
-[11:44:39] [Server thread/INFO]: huxuem lost connection: Disconnected
-[11:44:39] [Server thread/INFO]: huxuem left the game
-[11:44:44] [Server thread/INFO]: huxuem[/182.96.137.255:1267] logged in with entity id 395 at (252.8195091833756, 68.0, -88.51702202453701)
-[11:44:44] [Server thread/INFO]: huxuem joined the game
-[11:45:14] [Server thread/INFO]: huxuem lost connection: Timed out
-[11:45:14] [Server thread/INFO]: huxuem left the game
+[05:51:23] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[05:51:23] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[05:51:23] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[05:51:23] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[05:51:23] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[05:51:23] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[05:51:23] [Server thread/INFO]: Loading properties
+[05:51:23] [Server thread/INFO]: Default game type: SURVIVAL
+[05:51:23] [Server thread/INFO]: Generating keypair
+[05:51:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:51:23] [Server thread/INFO]: Using epoll channel type
+[05:51:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:51:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:51:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:51:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:51:23] [Server thread/INFO]: Preparing level "world"
+[05:51:23] [Server thread/INFO]: Reloading ResourceManager: Default
+[05:51:34] [Server thread/INFO]: Loaded 6 recipes
+[05:51:35] [Server thread/INFO]: Loaded 825 advancements
+[05:51:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[05:51:36] [Server thread/INFO]: Preparing spawn area: 0%
+[05:51:36] [Server thread/INFO]: Preparing spawn area: 0%
+[05:51:36] [Server thread/INFO]: Preparing spawn area: 0%
+[05:51:36] [Server thread/INFO]: Time elapsed: 1335 ms
+[05:51:36] [Server thread/INFO]: Done (12.931s)! For help, type "help"
+[05:51:40] [Server thread/INFO]: Shinku[/183.237.66.137:56597] logged in with entity id 249 at (166.71774219265717, 11.0, -107.30000001192091)
+[05:51:40] [Server thread/INFO]: Shinku joined the game
+[05:51:42] [Server thread/INFO]: huxuem[/182.96.137.255:2243] logged in with entity id 264 at (180.60189430543582, 11.0, -110.96677885187897)
+[05:51:42] [Server thread/INFO]: huxuem joined the game
+[05:51:44] [Server thread/INFO]: hooinkyoma[/125.84.178.122:3114] logged in with entity id 265 at (174.37988737220718, 11.0, -108.51560989412516)
+[05:51:44] [Server thread/INFO]: hooinkyoma joined the game
+[05:51:47] [Server thread/INFO]: Leo[/111.42.183.3:50364] logged in with entity id 266 at (107.63816802192163, 17.0, -73.89393150515552)
+[05:51:47] [Server thread/INFO]: Leo joined the game
+[05:51:48] [Server thread/WARN]: Mismatch in destroy block pos: fk{x=0, y=0, z=0} fk{x=175, y=12, z=-110}
+[05:51:50] [Server thread/INFO]: Teleported hooinkyoma to 192.5, 69.0, -129.5
+[05:51:56] [Server thread/INFO]: Teleported Shinku to 192.5, 69.0, -129.5
+[05:52:01] [Server thread/INFO]: Teleported huxuem to 192.5, 69.0, -129.5
+[05:52:06] [Server thread/INFO]: Teleported Leo to 192.5, 69.0, -129.5
+[05:52:12] [Server thread/INFO]: huxuem lost connection: Timed out
+[05:52:12] [Server thread/INFO]: huxuem left the game
+[05:52:18] [Server thread/INFO]: huxuem[/182.96.137.255:2260] logged in with entity id 468 at (192.5, 69.0, -129.5)
+[05:52:18] [Server thread/INFO]: huxuem joined the game
+[05:52:22] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:23] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:23] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:23] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:23] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:23] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:23] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:23] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:23] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:23] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:23] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:23] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:23] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:23] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:23] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:23] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:23] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:23] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:23] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:23] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:23] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:24] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:24] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:24] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:24] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:24] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:24] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:24] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:24] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:24] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:24] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:24] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:24] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:24] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:24] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:24] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:24] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:24] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:24] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:24] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:24] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:25] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:25] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:25] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:25] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:25] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:25] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:25] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:25] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:25] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:25] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:25] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:25] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:25] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:25] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:25] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:25] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:25] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:25] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:25] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:25] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:26] [Server thread/WARN]: huxuem was kicked for floating too long!
+[05:52:26] [Server thread/INFO]: huxuem lost connection: Disconnected
+[05:52:26] [Server thread/INFO]: huxuem left the game
+[05:52:26] [Server thread/WARN]: handleDisconnection() called twice
+[05:52:29] [Server thread/INFO]: huxuem[/182.96.137.255:2265] logged in with entity id 479 at (192.5, 69.0, -129.5)
+[05:52:29] [Server thread/INFO]: huxuem joined the game
+[05:53:09] [Server thread/INFO]: Leo lost connection: Disconnected
+[05:53:09] [Server thread/INFO]: Leo left the game
+[05:53:30] [Server thread/INFO]: huxuem has made the advancement [We Need to Go Deeper]
+[05:53:43] [Server thread/INFO]: hooinkyoma has made the advancement [We Need to Go Deeper]
+[05:55:12] [Server thread/INFO]: Leo[/111.42.183.3:50445] logged in with entity id 988 at (261.28029208977944, 84.0, -106.16241248987168)
+[05:55:12] [Server thread/INFO]: Leo joined the game
+[05:55:33] [Server thread/INFO]: Leo lost connection: Disconnected
+[05:55:33] [Server thread/INFO]: Leo left the game
+[05:59:15] [Server thread/INFO]: hooinkyoma was slain by Zombie Pigman
+[05:59:15] [Server thread/INFO]: huxuem lost connection: Timed out
+[05:59:15] [Server thread/INFO]: huxuem left the game
+[05:59:25] [Server thread/INFO]: huxuem[/182.96.137.255:2598] logged in with entity id 1666 at (262.5, 84.0, -104.74191907247767)
+[05:59:25] [Server thread/INFO]: huxuem joined the game
+[05:59:32] [Server thread/INFO]: huxuem was slain by Zombie Pigman
+[06:00:10] [Server thread/INFO]: huxuem lost connection: Timed out
+[06:00:10] [Server thread/INFO]: huxuem left the game
+[06:00:13] [Server thread/INFO]: huxuem[/182.96.137.255:2657] logged in with entity id 1940 at (215.89634079433435, 75.0, -47.936758762385864)
+[06:00:13] [Server thread/INFO]: huxuem joined the game
+[06:00:42] [Server thread/INFO]: huxuem lost connection: Disconnected
+[06:00:42] [Server thread/INFO]: huxuem left the game
+[06:00:44] [Server thread/INFO]: hooinkyoma burned to death
+[06:00:46] [Server thread/INFO]: huxuem[/182.96.137.255:2714] logged in with entity id 2062 at (221.56936830853866, 75.0, -46.22780706267204)
+[06:00:46] [Server thread/INFO]: huxuem joined the game
+[06:01:02] [Server thread/INFO]: huxuem lost connection: Timed out
+[06:01:02] [Server thread/INFO]: huxuem left the game
+[06:01:10] [Server thread/INFO]: huxuem[/182.96.137.255:2826] logged in with entity id 2227 at (237.0476854538168, 76.0, -50.784365712243726)
+[06:01:10] [Server thread/INFO]: huxuem joined the game
+[06:01:11] [Server thread/WARN]: Mismatch in destroy block pos: fk{x=0, y=0, z=0} fk{x=184, y=62, z=-85}
+[06:01:15] [Server thread/INFO]: hooinkyoma lost connection: Timed out
+[06:01:15] [Server thread/INFO]: hooinkyoma left the game
+[06:01:23] [Server thread/INFO]: hooinkyoma[/125.84.178.122:3299] logged in with entity id 2262 at (185.26120233722688, 64.24918707874468, -93.28369094369077)
+[06:01:23] [Server thread/INFO]: hooinkyoma joined the game
+[06:01:44] [Server thread/INFO]: huxuem was slain by Zombie Pigman
+[06:03:08] [Server thread/INFO]: hooinkyoma lost connection: Timed out
+[06:03:08] [Server thread/INFO]: hooinkyoma left the game
+[06:03:09] [Server thread/INFO]: huxuem was slain by Zombie Pigman
+[06:03:11] [Server thread/INFO]: hooinkyoma[/125.84.178.122:3318] logged in with entity id 2649 at (32.5, 80.0, -11.833515151225669)
+[06:03:11] [Server thread/INFO]: hooinkyoma joined the game
+[06:03:25] [Server thread/INFO]: huxuem lost connection: Disconnected
+[06:03:25] [Server thread/INFO]: huxuem left the game
+[06:04:11] [Server thread/INFO]: hooinkyoma lost connection: Disconnected
+[06:04:11] [Server thread/INFO]: hooinkyoma left the game
+[06:04:20] [Server thread/INFO]: hooinkyoma[/125.84.178.122:3348] logged in with entity id 3016 at (-6.26783927481138, 73.0, -35.70386093463917)
+[06:04:20] [Server thread/INFO]: hooinkyoma joined the game
+[06:04:27] [Server thread/INFO]: hooinkyoma tried to swim in lava
+[06:04:42] [Server thread/FATAL]: Error executing task on Server
+java.lang.NullPointerException: null
+	at ww.b(SourceFile:201) ~[minecraft_server.1.15.2.jar:?]
+	at wp.a(SourceFile:904) ~[minecraft_server.1.15.2.jar:?]
+	at xb.a(SourceFile:479) ~[minecraft_server.1.15.2.jar:?]
+	at xv.a(SourceFile:848) ~[minecraft_server.1.15.2.jar:?]
+	at qd.a(SourceFile:122) ~[minecraft_server.1.15.2.jar:?]
+	at qd$a.a(SourceFile:56) ~[minecraft_server.1.15.2.jar:?]
+	at lv.a(SourceFile:21) ~[minecraft_server.1.15.2.jar:?]
+	at tb.run(SourceFile:18) ~[minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:144) [minecraft_server.1.15.2.jar:?]
+	at aiw.c(SourceFile:23) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:743) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:138) [minecraft_server.1.15.2.jar:?]
+	at ais.w(SourceFile:118) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.ba(SourceFile:725) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:719) [minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:127) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:704) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:659) [minecraft_server.1.15.2.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[06:04:42] [Server thread/FATAL]: Error executing task on Server
+java.lang.NullPointerException: null
+	at ww.b(SourceFile:201) ~[minecraft_server.1.15.2.jar:?]
+	at wp.a(SourceFile:904) ~[minecraft_server.1.15.2.jar:?]
+	at xb.a(SourceFile:479) ~[minecraft_server.1.15.2.jar:?]
+	at xv.a(SourceFile:848) ~[minecraft_server.1.15.2.jar:?]
+	at qd.a(SourceFile:122) ~[minecraft_server.1.15.2.jar:?]
+	at qd$a.a(SourceFile:56) ~[minecraft_server.1.15.2.jar:?]
+	at lv.a(SourceFile:21) ~[minecraft_server.1.15.2.jar:?]
+	at tb.run(SourceFile:18) ~[minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:144) [minecraft_server.1.15.2.jar:?]
+	at aiw.c(SourceFile:23) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:743) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:138) [minecraft_server.1.15.2.jar:?]
+	at ais.w(SourceFile:118) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.ba(SourceFile:725) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:719) [minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:127) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:704) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:659) [minecraft_server.1.15.2.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[06:04:42] [Server thread/FATAL]: Error executing task on Server
+java.lang.NullPointerException: null
+	at ww.b(SourceFile:201) ~[minecraft_server.1.15.2.jar:?]
+	at wp.a(SourceFile:904) ~[minecraft_server.1.15.2.jar:?]
+	at xb.a(SourceFile:479) ~[minecraft_server.1.15.2.jar:?]
+	at xv.a(SourceFile:848) ~[minecraft_server.1.15.2.jar:?]
+	at qd.a(SourceFile:122) ~[minecraft_server.1.15.2.jar:?]
+	at qd$a.a(SourceFile:56) ~[minecraft_server.1.15.2.jar:?]
+	at lv.a(SourceFile:21) ~[minecraft_server.1.15.2.jar:?]
+	at tb.run(SourceFile:18) ~[minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:144) [minecraft_server.1.15.2.jar:?]
+	at aiw.c(SourceFile:23) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:743) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:138) [minecraft_server.1.15.2.jar:?]
+	at ais.w(SourceFile:118) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.ba(SourceFile:725) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:719) [minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:127) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:704) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:659) [minecraft_server.1.15.2.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[06:04:42] [Server thread/FATAL]: Error executing task on Server
+java.lang.NullPointerException: null
+	at ww.b(SourceFile:201) ~[minecraft_server.1.15.2.jar:?]
+	at wp.a(SourceFile:904) ~[minecraft_server.1.15.2.jar:?]
+	at xb.a(SourceFile:479) ~[minecraft_server.1.15.2.jar:?]
+	at xv.a(SourceFile:848) ~[minecraft_server.1.15.2.jar:?]
+	at qd.a(SourceFile:122) ~[minecraft_server.1.15.2.jar:?]
+	at qd$a.a(SourceFile:56) ~[minecraft_server.1.15.2.jar:?]
+	at lv.a(SourceFile:21) ~[minecraft_server.1.15.2.jar:?]
+	at tb.run(SourceFile:18) ~[minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:144) [minecraft_server.1.15.2.jar:?]
+	at aiw.c(SourceFile:23) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:743) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:138) [minecraft_server.1.15.2.jar:?]
+	at ais.w(SourceFile:118) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.ba(SourceFile:725) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:719) [minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:127) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:704) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:659) [minecraft_server.1.15.2.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[06:04:43] [Server thread/FATAL]: Error executing task on Server
+java.lang.NullPointerException: null
+	at ww.b(SourceFile:201) ~[minecraft_server.1.15.2.jar:?]
+	at wp.a(SourceFile:904) ~[minecraft_server.1.15.2.jar:?]
+	at xb.a(SourceFile:479) ~[minecraft_server.1.15.2.jar:?]
+	at xv.a(SourceFile:848) ~[minecraft_server.1.15.2.jar:?]
+	at qd.a(SourceFile:122) ~[minecraft_server.1.15.2.jar:?]
+	at qd$a.a(SourceFile:56) ~[minecraft_server.1.15.2.jar:?]
+	at lv.a(SourceFile:21) ~[minecraft_server.1.15.2.jar:?]
+	at tb.run(SourceFile:18) ~[minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:144) [minecraft_server.1.15.2.jar:?]
+	at aiw.c(SourceFile:23) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:743) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:138) [minecraft_server.1.15.2.jar:?]
+	at ais.w(SourceFile:118) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.ba(SourceFile:725) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:719) [minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:127) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:704) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:659) [minecraft_server.1.15.2.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[06:04:43] [Server thread/FATAL]: Error executing task on Server
+java.lang.NullPointerException: null
+	at ww.b(SourceFile:201) ~[minecraft_server.1.15.2.jar:?]
+	at wp.a(SourceFile:904) ~[minecraft_server.1.15.2.jar:?]
+	at xb.a(SourceFile:479) ~[minecraft_server.1.15.2.jar:?]
+	at xv.a(SourceFile:848) ~[minecraft_server.1.15.2.jar:?]
+	at qd.a(SourceFile:122) ~[minecraft_server.1.15.2.jar:?]
+	at qd$a.a(SourceFile:56) ~[minecraft_server.1.15.2.jar:?]
+	at lv.a(SourceFile:21) ~[minecraft_server.1.15.2.jar:?]
+	at tb.run(SourceFile:18) ~[minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:144) [minecraft_server.1.15.2.jar:?]
+	at aiw.c(SourceFile:23) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:743) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:138) [minecraft_server.1.15.2.jar:?]
+	at ais.w(SourceFile:118) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.ba(SourceFile:725) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:719) [minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:127) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:704) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:659) [minecraft_server.1.15.2.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[06:04:47] [Server thread/FATAL]: Error executing task on Server
+java.lang.NullPointerException: null
+	at ww.b(SourceFile:201) ~[minecraft_server.1.15.2.jar:?]
+	at wp.a(SourceFile:904) ~[minecraft_server.1.15.2.jar:?]
+	at xb.a(SourceFile:479) ~[minecraft_server.1.15.2.jar:?]
+	at xv.a(SourceFile:848) ~[minecraft_server.1.15.2.jar:?]
+	at qd.a(SourceFile:122) ~[minecraft_server.1.15.2.jar:?]
+	at qd$b.a(SourceFile:18) ~[minecraft_server.1.15.2.jar:?]
+	at lv.a(SourceFile:21) ~[minecraft_server.1.15.2.jar:?]
+	at tb.run(SourceFile:18) ~[minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:144) [minecraft_server.1.15.2.jar:?]
+	at aiw.c(SourceFile:23) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:743) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:138) [minecraft_server.1.15.2.jar:?]
+	at ais.w(SourceFile:118) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.ba(SourceFile:725) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:719) [minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:127) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:704) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:659) [minecraft_server.1.15.2.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[06:04:47] [Server thread/FATAL]: Error executing task on Server
+java.lang.NullPointerException: null
+	at ww.b(SourceFile:201) ~[minecraft_server.1.15.2.jar:?]
+	at wp.a(SourceFile:904) ~[minecraft_server.1.15.2.jar:?]
+	at xb.a(SourceFile:479) ~[minecraft_server.1.15.2.jar:?]
+	at xv.a(SourceFile:848) ~[minecraft_server.1.15.2.jar:?]
+	at qd.a(SourceFile:122) ~[minecraft_server.1.15.2.jar:?]
+	at qd$b.a(SourceFile:18) ~[minecraft_server.1.15.2.jar:?]
+	at lv.a(SourceFile:21) ~[minecraft_server.1.15.2.jar:?]
+	at tb.run(SourceFile:18) ~[minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:144) [minecraft_server.1.15.2.jar:?]
+	at aiw.c(SourceFile:23) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:743) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:138) [minecraft_server.1.15.2.jar:?]
+	at ais.w(SourceFile:118) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.ba(SourceFile:725) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:719) [minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:127) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:704) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:659) [minecraft_server.1.15.2.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[06:04:48] [Server thread/FATAL]: Error executing task on Server
+java.lang.NullPointerException: null
+	at ww.b(SourceFile:201) ~[minecraft_server.1.15.2.jar:?]
+	at wp.a(SourceFile:904) ~[minecraft_server.1.15.2.jar:?]
+	at xb.a(SourceFile:479) ~[minecraft_server.1.15.2.jar:?]
+	at xv.a(SourceFile:848) ~[minecraft_server.1.15.2.jar:?]
+	at qd.a(SourceFile:122) ~[minecraft_server.1.15.2.jar:?]
+	at qd$b.a(SourceFile:18) ~[minecraft_server.1.15.2.jar:?]
+	at lv.a(SourceFile:21) ~[minecraft_server.1.15.2.jar:?]
+	at tb.run(SourceFile:18) ~[minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:144) [minecraft_server.1.15.2.jar:?]
+	at aiw.c(SourceFile:23) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:743) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:138) [minecraft_server.1.15.2.jar:?]
+	at ais.w(SourceFile:118) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.ba(SourceFile:725) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:719) [minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:127) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:704) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:659) [minecraft_server.1.15.2.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[06:04:48] [Server thread/FATAL]: Error executing task on Server
+java.lang.NullPointerException: null
+	at ww.b(SourceFile:201) ~[minecraft_server.1.15.2.jar:?]
+	at wp.a(SourceFile:904) ~[minecraft_server.1.15.2.jar:?]
+	at xb.a(SourceFile:479) ~[minecraft_server.1.15.2.jar:?]
+	at xv.a(SourceFile:848) ~[minecraft_server.1.15.2.jar:?]
+	at qd.a(SourceFile:122) ~[minecraft_server.1.15.2.jar:?]
+	at qd$a.a(SourceFile:56) ~[minecraft_server.1.15.2.jar:?]
+	at lv.a(SourceFile:21) ~[minecraft_server.1.15.2.jar:?]
+	at tb.run(SourceFile:18) ~[minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:144) [minecraft_server.1.15.2.jar:?]
+	at aiw.c(SourceFile:23) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:743) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:138) [minecraft_server.1.15.2.jar:?]
+	at ais.w(SourceFile:118) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.ba(SourceFile:725) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:719) [minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:127) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:704) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:659) [minecraft_server.1.15.2.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[06:04:48] [Server thread/FATAL]: Error executing task on Server
+java.lang.NullPointerException: null
+	at ww.b(SourceFile:201) ~[minecraft_server.1.15.2.jar:?]
+	at wp.a(SourceFile:904) ~[minecraft_server.1.15.2.jar:?]
+	at xb.a(SourceFile:479) ~[minecraft_server.1.15.2.jar:?]
+	at xv.a(SourceFile:848) ~[minecraft_server.1.15.2.jar:?]
+	at qd.a(SourceFile:122) ~[minecraft_server.1.15.2.jar:?]
+	at qd$b.a(SourceFile:18) ~[minecraft_server.1.15.2.jar:?]
+	at lv.a(SourceFile:21) ~[minecraft_server.1.15.2.jar:?]
+	at tb.run(SourceFile:18) ~[minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:144) [minecraft_server.1.15.2.jar:?]
+	at aiw.c(SourceFile:23) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:743) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:138) [minecraft_server.1.15.2.jar:?]
+	at ais.w(SourceFile:118) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.ba(SourceFile:725) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:719) [minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:127) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:704) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:659) [minecraft_server.1.15.2.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[06:04:48] [Server thread/FATAL]: Error executing task on Server
+java.lang.NullPointerException: null
+	at ww.b(SourceFile:201) ~[minecraft_server.1.15.2.jar:?]
+	at wp.a(SourceFile:904) ~[minecraft_server.1.15.2.jar:?]
+	at xb.a(SourceFile:479) ~[minecraft_server.1.15.2.jar:?]
+	at xv.a(SourceFile:848) ~[minecraft_server.1.15.2.jar:?]
+	at qd.a(SourceFile:122) ~[minecraft_server.1.15.2.jar:?]
+	at qd$b.a(SourceFile:18) ~[minecraft_server.1.15.2.jar:?]
+	at lv.a(SourceFile:21) ~[minecraft_server.1.15.2.jar:?]
+	at tb.run(SourceFile:18) ~[minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:144) [minecraft_server.1.15.2.jar:?]
+	at aiw.c(SourceFile:23) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:743) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:138) [minecraft_server.1.15.2.jar:?]
+	at ais.w(SourceFile:118) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.ba(SourceFile:725) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:719) [minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:127) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:704) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:659) [minecraft_server.1.15.2.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[06:04:49] [Server thread/FATAL]: Error executing task on Server
+java.lang.NullPointerException: null
+	at ww.b(SourceFile:201) ~[minecraft_server.1.15.2.jar:?]
+	at wp.a(SourceFile:904) ~[minecraft_server.1.15.2.jar:?]
+	at xb.a(SourceFile:479) ~[minecraft_server.1.15.2.jar:?]
+	at xv.a(SourceFile:848) ~[minecraft_server.1.15.2.jar:?]
+	at qd.a(SourceFile:122) ~[minecraft_server.1.15.2.jar:?]
+	at qd$a.a(SourceFile:56) ~[minecraft_server.1.15.2.jar:?]
+	at lv.a(SourceFile:21) ~[minecraft_server.1.15.2.jar:?]
+	at tb.run(SourceFile:18) ~[minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:144) [minecraft_server.1.15.2.jar:?]
+	at aiw.c(SourceFile:23) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:743) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:138) [minecraft_server.1.15.2.jar:?]
+	at ais.w(SourceFile:118) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.ba(SourceFile:725) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:719) [minecraft_server.1.15.2.jar:?]
+	at ais.bk(SourceFile:103) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:703) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:659) [minecraft_server.1.15.2.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[06:04:49] [Server thread/FATAL]: Error executing task on Server
+java.lang.NullPointerException: null
+	at ww.b(SourceFile:201) ~[minecraft_server.1.15.2.jar:?]
+	at wp.a(SourceFile:904) ~[minecraft_server.1.15.2.jar:?]
+	at xb.a(SourceFile:479) ~[minecraft_server.1.15.2.jar:?]
+	at xv.a(SourceFile:848) ~[minecraft_server.1.15.2.jar:?]
+	at qd.a(SourceFile:122) ~[minecraft_server.1.15.2.jar:?]
+	at qd$a.a(SourceFile:56) ~[minecraft_server.1.15.2.jar:?]
+	at lv.a(SourceFile:21) ~[minecraft_server.1.15.2.jar:?]
+	at tb.run(SourceFile:18) ~[minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:144) [minecraft_server.1.15.2.jar:?]
+	at aiw.c(SourceFile:23) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:743) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:138) [minecraft_server.1.15.2.jar:?]
+	at ais.w(SourceFile:118) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.ba(SourceFile:725) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:719) [minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:127) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:704) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:659) [minecraft_server.1.15.2.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[06:04:49] [Server thread/FATAL]: Error executing task on Server
+java.lang.NullPointerException: null
+	at ww.b(SourceFile:201) ~[minecraft_server.1.15.2.jar:?]
+	at wp.a(SourceFile:904) ~[minecraft_server.1.15.2.jar:?]
+	at xb.a(SourceFile:479) ~[minecraft_server.1.15.2.jar:?]
+	at xv.a(SourceFile:848) ~[minecraft_server.1.15.2.jar:?]
+	at qd.a(SourceFile:122) ~[minecraft_server.1.15.2.jar:?]
+	at qd$a.a(SourceFile:56) ~[minecraft_server.1.15.2.jar:?]
+	at lv.a(SourceFile:21) ~[minecraft_server.1.15.2.jar:?]
+	at tb.run(SourceFile:18) ~[minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:144) [minecraft_server.1.15.2.jar:?]
+	at aiw.c(SourceFile:23) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:743) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:138) [minecraft_server.1.15.2.jar:?]
+	at ais.w(SourceFile:118) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.ba(SourceFile:725) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:719) [minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:127) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:704) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:659) [minecraft_server.1.15.2.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[06:04:50] [Server thread/FATAL]: Error executing task on Server
+java.lang.NullPointerException: null
+	at ww.b(SourceFile:201) ~[minecraft_server.1.15.2.jar:?]
+	at wp.a(SourceFile:904) ~[minecraft_server.1.15.2.jar:?]
+	at xb.a(SourceFile:479) ~[minecraft_server.1.15.2.jar:?]
+	at xv.a(SourceFile:848) ~[minecraft_server.1.15.2.jar:?]
+	at qd.a(SourceFile:122) ~[minecraft_server.1.15.2.jar:?]
+	at qd$a.a(SourceFile:56) ~[minecraft_server.1.15.2.jar:?]
+	at lv.a(SourceFile:21) ~[minecraft_server.1.15.2.jar:?]
+	at tb.run(SourceFile:18) ~[minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:144) [minecraft_server.1.15.2.jar:?]
+	at aiw.c(SourceFile:23) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:743) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:138) [minecraft_server.1.15.2.jar:?]
+	at ais.w(SourceFile:118) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.ba(SourceFile:725) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:719) [minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:127) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:704) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:659) [minecraft_server.1.15.2.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[06:05:03] [Server thread/INFO]: hooinkyoma lost connection: Disconnected
+[06:05:03] [Server thread/INFO]: hooinkyoma left the game
+[06:05:38] [Server thread/INFO]: Unknown command
+[06:05:38] [Server thread/INFO]: 、<--[HERE]
+[06:05:40] [Server thread/INFO]: Unknown command
+[06:05:40] [Server thread/INFO]: .<--[HERE]
+[06:05:43] [Server thread/INFO]: There are 1 of a max 20 players online: Shinku
+[06:06:20] [Server thread/INFO]: Shinku lost connection: Disconnected
+[06:06:20] [Server thread/INFO]: Shinku left the game
+[06:06:30] [Server thread/INFO]: There are 0 of a max 20 players online: 
