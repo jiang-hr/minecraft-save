@@ -1,32 +1,121 @@
-[05:23:47] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[05:23:47] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[05:23:47] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[05:23:47] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[05:23:47] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[05:23:47] [Server thread/INFO]: Starting minecraft server version 1.15.2
-[05:23:47] [Server thread/INFO]: Loading properties
-[05:23:47] [Server thread/INFO]: Default game type: SURVIVAL
-[05:23:47] [Server thread/INFO]: Generating keypair
-[05:23:47] [Server thread/INFO]: Starting Minecraft server on *:25565
-[05:23:47] [Server thread/INFO]: Using epoll channel type
-[05:23:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05:23:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[05:23:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05:23:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[05:23:48] [Server thread/INFO]: Preparing level "world"
-[05:23:48] [Server thread/INFO]: Reloading ResourceManager: Default
-[05:24:47] [Server thread/INFO]: Loaded 6 recipes
-[05:24:48] [Server thread/INFO]: Loaded 825 advancements
-[05:24:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[05:24:52] [Server thread/INFO]: Preparing spawn area: 0%
-[05:24:52] [Server thread/INFO]: Preparing spawn area: 0%
-[05:24:52] [Server thread/INFO]: Preparing spawn area: 0%
-[05:24:52] [Server thread/INFO]: Preparing spawn area: 0%
-[05:24:52] [Server thread/INFO]: Preparing spawn area: 0%
-[05:24:52] [Server thread/INFO]: Preparing spawn area: 0%
-[05:24:52] [Server thread/INFO]: Preparing spawn area: 0%
-[05:24:52] [Server thread/INFO]: Preparing spawn area: 0%
-[05:24:53] [Server thread/INFO]: Preparing spawn area: 0%
-[05:24:53] [Server thread/INFO]: Preparing spawn area: 25%
-[05:24:54] [Server thread/INFO]: Time elapsed: 5583 ms
-[05:24:54] [Server thread/INFO]: Done (66.516s)! For help, type "help"
+[11:39:30] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:39:30] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:39:30] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:39:30] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:39:30] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:39:31] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[11:39:31] [Server thread/INFO]: Loading properties
+[11:39:31] [Server thread/INFO]: Default game type: SURVIVAL
+[11:39:31] [Server thread/INFO]: Generating keypair
+[11:39:31] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:39:32] [Server thread/INFO]: Using epoll channel type
+[11:39:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:39:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:39:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:39:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:39:32] [Server thread/INFO]: Preparing level "world"
+[11:39:33] [Server thread/INFO]: Reloading ResourceManager: Default
+[11:40:40] [Server thread/INFO]: Loaded 6 recipes
+[11:40:41] [Server thread/INFO]: Loaded 825 advancements
+[11:40:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:40:46] [Server thread/INFO]: Preparing spawn area: 0%
+[11:40:46] [Server thread/INFO]: Preparing spawn area: 0%
+[11:40:46] [Server thread/INFO]: Preparing spawn area: 0%
+[11:40:46] [Server thread/INFO]: Preparing spawn area: 0%
+[11:40:46] [Server thread/INFO]: Preparing spawn area: 0%
+[11:40:46] [Server thread/INFO]: Preparing spawn area: 0%
+[11:40:46] [Server thread/INFO]: Preparing spawn area: 0%
+[11:40:46] [Server thread/INFO]: Preparing spawn area: 0%
+[11:40:46] [Server thread/INFO]: Preparing spawn area: 0%
+[11:40:46] [Server thread/INFO]: Preparing spawn area: 0%
+[11:40:47] [Server thread/INFO]: Preparing spawn area: 19%
+[11:40:47] [Server thread/INFO]: Preparing spawn area: 70%
+[11:40:48] [Server thread/INFO]: Time elapsed: 6308 ms
+[11:40:48] [Server thread/INFO]: Done (75.789s)! For help, type "help"
+[11:40:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[11:42:22] [Server thread/INFO]: Unknown command
+[11:42:22] [Server thread/INFO]: <--[HERE]
+[11:43:06] [Server thread/INFO]: /advancement (grant|revoke)
+[11:43:06] [Server thread/INFO]: /ban <targets> [<reason>]
+[11:43:06] [Server thread/INFO]: /ban-ip <target> [<reason>]
+[11:43:06] [Server thread/INFO]: /banlist [ips|players]
+[11:43:06] [Server thread/INFO]: /bossbar (add|get|list|remove|set)
+[11:43:06] [Server thread/INFO]: /clear [<targets>]
+[11:43:06] [Server thread/INFO]: /clone <begin> <end> <destination> [filtered|masked|replace]
+[11:43:06] [Server thread/INFO]: /data (get|merge|modify|remove)
+[11:43:06] [Server thread/INFO]: /datapack (disable|enable|list)
+[11:43:06] [Server thread/INFO]: /debug (report|start|stop)
+[11:43:06] [Server thread/INFO]: /defaultgamemode (adventure|creative|spectator|survival)
+[11:43:06] [Server thread/INFO]: /deop <targets>
+[11:43:06] [Server thread/INFO]: /difficulty [easy|hard|normal|peaceful]
+[11:43:06] [Server thread/INFO]: /effect (clear|give)
+[11:43:06] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
+[11:43:06] [Server thread/INFO]: /execute (align|anchored|as|at|facing|if|in|positioned|rotated|run|store|unless)
+[11:43:06] [Server thread/INFO]: /experience (add|query|set)
+[11:43:06] [Server thread/INFO]: /fill <from> <to> <block> [destroy|hollow|keep|outline|replace]
+[11:43:06] [Server thread/INFO]: /forceload (add|query|remove)
+[11:43:06] [Server thread/INFO]: /function <name>
+[11:43:06] [Server thread/INFO]: /gamemode (adventure|creative|spectator|survival)
+[11:43:06] [Server thread/INFO]: /gamerule (announceAdvancements|commandBlockOutput|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|keepInventory|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobGriefing|naturalRegeneration|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|spawnRadius|spectatorsGenerateChunks)
+[11:43:06] [Server thread/INFO]: /give <targets> <item> [<count>]
+[11:43:06] [Server thread/INFO]: /help [<command>]
+[11:43:06] [Server thread/INFO]: /kick <targets> [<reason>]
+[11:43:06] [Server thread/INFO]: /kill [<targets>]
+[11:43:06] [Server thread/INFO]: /list [uuids]
+[11:43:06] [Server thread/INFO]: /locate (Buried_Treasure|Desert_Pyramid|EndCity|Fortress|Igloo|Jungle_Pyramid|Mansion|Mineshaft|Monument|Ocean_Ruin|Pillager_Outpost|Shipwreck|Stronghold|Swamp_Hut|Village)
+[11:43:06] [Server thread/INFO]: /loot (give|insert|replace|spawn)
+[11:43:06] [Server thread/INFO]: /me <action>
+[11:43:06] [Server thread/INFO]: /msg <targets> <message>
+[11:43:06] [Server thread/INFO]: /op <targets>
+[11:43:06] [Server thread/INFO]: /pardon <targets>
+[11:43:06] [Server thread/INFO]: /pardon-ip <target>
+[11:43:06] [Server thread/INFO]: /particle <name> [<pos>]
+[11:43:06] [Server thread/INFO]: /playsound <sound> (ambient|block|hostile|master|music|neutral|player|record|voice|weather)
+[11:43:06] [Server thread/INFO]: /recipe (give|take)
+[11:43:06] [Server thread/INFO]: /reload
+[11:43:06] [Server thread/INFO]: /replaceitem (block|entity)
+[11:43:06] [Server thread/INFO]: /save-all [flush]
+[11:43:06] [Server thread/INFO]: /save-off
+[11:43:06] [Server thread/INFO]: /save-on
+[11:43:06] [Server thread/INFO]: /say <message>
+[11:43:06] [Server thread/INFO]: /schedule (clear|function)
+[11:43:06] [Server thread/INFO]: /scoreboard (objectives|players)
+[11:43:06] [Server thread/INFO]: /seed
+[11:43:06] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
+[11:43:06] [Server thread/INFO]: /setidletimeout <minutes>
+[11:43:06] [Server thread/INFO]: /setworldspawn [<pos>]
+[11:43:06] [Server thread/INFO]: /spawnpoint [<targets>]
+[11:43:06] [Server thread/INFO]: /spectate [<target>]
+[11:43:06] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> <respectTeams> <targets>
+[11:43:06] [Server thread/INFO]: /stop
+[11:43:06] [Server thread/INFO]: /stopsound <targets> [*|ambient|block|hostile|master|music|neutral|player|record|voice|weather]
+[11:43:06] [Server thread/INFO]: /summon <entity> [<pos>]
+[11:43:06] [Server thread/INFO]: /tag <targets> (add|list|remove)
+[11:43:06] [Server thread/INFO]: /team (add|empty|join|leave|list|modify|remove)
+[11:43:06] [Server thread/INFO]: /teammsg <message>
+[11:43:06] [Server thread/INFO]: /teleport (<destination>|<location>|<targets>)
+[11:43:06] [Server thread/INFO]: /tell -> msg
+[11:43:06] [Server thread/INFO]: /tellraw <targets> <message>
+[11:43:06] [Server thread/INFO]: /time (add|query|set)
+[11:43:06] [Server thread/INFO]: /title <targets> (actionbar|clear|reset|subtitle|times|title)
+[11:43:06] [Server thread/INFO]: /tm -> teammsg
+[11:43:06] [Server thread/INFO]: /tp -> teleport
+[11:43:06] [Server thread/INFO]: /trigger <objective> [add|set]
+[11:43:06] [Server thread/INFO]: /w -> msg
+[11:43:06] [Server thread/INFO]: /weather (clear|rain|thunder)
+[11:43:06] [Server thread/INFO]: /whitelist (add|list|off|on|reload|remove)
+[11:43:06] [Server thread/INFO]: /worldborder (add|center|damage|get|set|warning)
+[11:43:06] [Server thread/INFO]: /xp -> experience
+[11:43:12] [Server thread/INFO]: huxuem[/182.96.137.255:1214] logged in with entity id 222 at (252.8195091833756, 68.0, -88.51702202453701)
+[11:43:12] [Server thread/INFO]: huxuem joined the game
+[11:43:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2056ms or 41 ticks behind
+[11:43:57] [Server thread/INFO]: huxuem lost connection: Disconnected
+[11:43:57] [Server thread/INFO]: huxuem left the game
+[11:44:14] [Server thread/INFO]: huxuem[/182.96.137.255:1243] logged in with entity id 353 at (252.8195091833756, 68.0, -88.51702202453701)
+[11:44:14] [Server thread/INFO]: huxuem joined the game
+[11:44:39] [Server thread/INFO]: huxuem lost connection: Disconnected
+[11:44:39] [Server thread/INFO]: huxuem left the game
+[11:44:44] [Server thread/INFO]: huxuem[/182.96.137.255:1267] logged in with entity id 395 at (252.8195091833756, 68.0, -88.51702202453701)
+[11:44:44] [Server thread/INFO]: huxuem joined the game
+[11:45:14] [Server thread/INFO]: huxuem lost connection: Timed out
+[11:45:14] [Server thread/INFO]: huxuem left the game
