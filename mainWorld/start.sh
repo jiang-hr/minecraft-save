@@ -1,1 +1,1 @@
-sudo java -Xms256m -Xmx1024m -jar minecraft_server.1.15.2.jar nogui
+sudo java -Xms4096m -Xmx8192m -jar minecraft_server.1.15.2.jar nogui
