@@ -5143,3 +5143,42 @@ java.io.IOException: Bad file descriptor
 [22:52:10] [Server thread/WARN]: huxuem was kicked for floating too long!
 [22:52:10] [Server thread/INFO]: Stopping server
 [22:52:10] [Server thread/INFO]: Saving players
+[02:47:41] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[02:47:41] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02:47:41] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02:47:41] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[02:47:41] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[02:47:41] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[02:47:41] [Server thread/INFO]: Loading properties
+[02:47:41] [Server thread/INFO]: Default game type: SURVIVAL
+[02:47:41] [Server thread/INFO]: Generating keypair
+[02:47:41] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:272) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at wd$2.run(SourceFile:110) [minecraft_server.1.15.2.jar:?]
+[02:47:41] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:47:42] [Server thread/INFO]: Using epoll channel type
+[02:47:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:47:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:47:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:47:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:47:42] [Server thread/INFO]: Preparing level "world"
+[02:47:42] [Server thread/INFO]: Reloading ResourceManager: Default
+[02:47:50] [Server thread/INFO]: Loaded 6 recipes
+[02:47:50] [Server thread/INFO]: Loaded 825 advancements
+[02:47:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:47:51] [Server thread/INFO]: Preparing spawn area: 0%
+[02:47:51] [Server thread/INFO]: Preparing spawn area: 0%
+[02:47:51] [Server thread/INFO]: Preparing spawn area: 0%
+[02:47:52] [Server thread/INFO]: Time elapsed: 1576 ms
+[02:47:52] [Server thread/INFO]: Done (10.023s)! For help, type "help"
