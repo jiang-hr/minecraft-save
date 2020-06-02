@@ -5182,3 +5182,136 @@ java.io.IOException: Bad file descriptor
 [02:47:51] [Server thread/INFO]: Preparing spawn area: 0%
 [02:47:52] [Server thread/INFO]: Time elapsed: 1576 ms
 [02:47:52] [Server thread/INFO]: Done (10.023s)! For help, type "help"
+[04:25:28] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[04:25:28] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04:25:28] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04:25:28] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[04:25:28] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04:25:28] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[04:25:28] [Server thread/INFO]: Loading properties
+[04:25:28] [Server thread/INFO]: Default game type: SURVIVAL
+[04:25:28] [Server thread/INFO]: Generating keypair
+[04:25:28] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:272) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at wd$2.run(SourceFile:110) [minecraft_server.1.15.2.jar:?]
+[04:25:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:25:28] [Server thread/INFO]: Using epoll channel type
+[04:25:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:25:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:25:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:25:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:25:28] [Server thread/INFO]: Preparing level "world"
+[04:25:28] [Server thread/INFO]: Reloading ResourceManager: Default
+[04:25:36] [Server thread/INFO]: Loaded 6 recipes
+[04:25:36] [Server thread/INFO]: Loaded 825 advancements
+[04:25:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:25:37] [Server thread/INFO]: Preparing spawn area: 0%
+[04:25:37] [Server thread/INFO]: Preparing spawn area: 0%
+[04:25:37] [Server thread/INFO]: Preparing spawn area: 0%
+[04:25:38] [Server thread/INFO]: Preparing spawn area: 49%
+[04:25:38] [Server thread/INFO]: Time elapsed: 1598 ms
+[04:25:38] [Server thread/INFO]: Done (9.629s)! For help, type "help"
+[09:29:33] [Server thread/INFO]: Leo[/60.10.17.169:59551] logged in with entity id 189 at (235.1308690565883, 77.0, -25.265038832475362)
+[09:29:33] [Server thread/INFO]: Leo joined the game
+[09:30:03] [Server thread/INFO]: Leo lost connection: Disconnected
+[09:30:03] [Server thread/INFO]: Leo left the game
+[09:30:33] [Server thread/INFO]: Leo[/60.10.17.169:59560] logged in with entity id 304 at (235.1308690565883, 77.0, -25.265038832475362)
+[09:30:33] [Server thread/INFO]: Leo joined the game
+[09:31:03] [Server thread/INFO]: Leo lost connection: Disconnected
+[09:31:03] [Server thread/INFO]: Leo left the game
+[09:46:08] [Server thread/INFO]: Leo[/117.10.43.142:53886] logged in with entity id 359 at (235.1308690565883, 77.0, -25.265038832475362)
+[09:46:08] [Server thread/INFO]: Leo joined the game
+[09:50:08] [Server thread/INFO]: Leo lost connection: Timed out
+[09:50:08] [Server thread/INFO]: Leo left the game
+[09:50:17] [Server thread/INFO]: Leo[/117.10.43.142:53891] logged in with entity id 842 at (254.67359878626033, 84.0, -78.01891214108491)
+[09:50:17] [Server thread/INFO]: Leo joined the game
+[09:50:47] [Server thread/INFO]: Leo lost connection: Timed out
+[09:50:47] [Server thread/INFO]: Leo left the game
+[09:51:15] [Server thread/INFO]: Leo[/117.10.43.142:53893] logged in with entity id 885 at (254.67359878626033, 84.0, -78.01891214108491)
+[09:51:15] [Server thread/INFO]: Leo joined the game
+[09:51:45] [Server thread/INFO]: Leo lost connection: Timed out
+[09:51:45] [Server thread/INFO]: Leo left the game
+[10:11:14] [Server thread/INFO]: Shinku[/183.237.66.137:60639] logged in with entity id 943 at (250.94285987940543, 84.0, -87.30407858164796)
+[10:11:14] [Server thread/INFO]: Shinku joined the game
+[10:15:50] [Server thread/INFO]: Shinku fell from a high place
+[10:16:01] [Server thread/INFO]: Shinku fell from a high place
+[10:23:04] [Server thread/INFO]: Shinku lost connection: Disconnected
+[10:23:04] [Server thread/INFO]: Shinku left the game
+[14:27:31] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14:27:31] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:27:31] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:27:31] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14:27:31] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:27:31] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:272) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at wd$2.run(SourceFile:110) [minecraft_server.1.15.2.jar:?]
+[14:27:31] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[14:27:31] [Server thread/INFO]: Loading properties
+[14:27:31] [Server thread/INFO]: Default game type: SURVIVAL
+[14:27:31] [Server thread/INFO]: Generating keypair
+[14:27:31] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:27:32] [Server thread/INFO]: Using epoll channel type
+[14:27:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:27:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:27:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:27:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:27:32] [Server thread/INFO]: Preparing level "world"
+[14:27:32] [Server thread/INFO]: Reloading ResourceManager: Default
+[14:27:38] [Server thread/INFO]: Loaded 6 recipes
+[14:27:38] [Server thread/INFO]: Loaded 825 advancements
+[14:27:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:27:40] [Server thread/INFO]: Preparing spawn area: 0%
+[14:27:40] [Server thread/INFO]: Preparing spawn area: 0%
+[14:27:40] [Server thread/INFO]: Preparing spawn area: 0%
+[14:27:40] [Server thread/INFO]: Time elapsed: 1588 ms
+[14:27:40] [Server thread/INFO]: Done (8.295s)! For help, type "help"
+[15:05:44] [Server thread/INFO]: Leo[/117.10.43.142:56458] logged in with entity id 183 at (254.67359878626033, 84.0, -78.01891214108491)
+[15:05:44] [Server thread/INFO]: Leo joined the game
+[15:06:14] [Server thread/INFO]: Leo lost connection: Disconnected
+[15:06:14] [Server thread/INFO]: Leo left the game
+[15:06:36] [Server thread/INFO]: Leo[/117.10.43.142:56482] logged in with entity id 290 at (254.67359878626033, 84.0, -78.01891214108491)
+[15:06:36] [Server thread/INFO]: Leo joined the game
+[15:07:06] [Server thread/INFO]: Leo lost connection: Timed out
+[15:07:06] [Server thread/INFO]: Leo left the game
+[15:07:26] [Server thread/INFO]: Leo[/117.10.43.142:56501] logged in with entity id 341 at (254.67359878626033, 84.0, -78.01891214108491)
+[15:07:26] [Server thread/INFO]: Leo joined the game
+[15:07:56] [Server thread/INFO]: Leo lost connection: Timed out
+[15:07:56] [Server thread/INFO]: Leo left the game
+[15:08:40] [Server thread/INFO]: Leo[/218.68.194.184:56527] logged in with entity id 402 at (254.67359878626033, 84.0, -78.01891214108491)
+[15:08:40] [Server thread/INFO]: Leo joined the game
+[15:08:55] [Server thread/INFO]: Leo lost connection: Timed out
+[15:08:55] [Server thread/INFO]: Leo left the game
+[15:09:14] [Server thread/INFO]: Leo[/117.10.43.142:56533] logged in with entity id 432 at (254.67359878626033, 84.0, -78.01891214108491)
+[15:09:14] [Server thread/INFO]: Leo joined the game
+[15:09:29] [Server thread/INFO]: Leo lost connection: Timed out
+[15:09:29] [Server thread/INFO]: Leo left the game
+[15:12:31] [Server thread/INFO]: Leo[/117.10.43.142:56603] logged in with entity id 464 at (254.67359878626033, 84.0, -78.01891214108491)
+[15:12:31] [Server thread/INFO]: Leo joined the game
+[15:13:01] [Server thread/INFO]: Leo lost connection: Timed out
+[15:13:01] [Server thread/INFO]: Leo left the game
+[15:13:04] [Server thread/INFO]: Leo[/218.68.194.184:56605] logged in with entity id 512 at (254.67359878626033, 84.0, -78.01891214108491)
+[15:13:04] [Server thread/INFO]: Leo joined the game
+[15:13:34] [Server thread/INFO]: Leo lost connection: Disconnected
+[15:13:34] [Server thread/INFO]: Leo left the game
