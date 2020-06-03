@@ -1,13 +1,13 @@
-[09:34:56] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[09:34:56] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[09:34:56] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[09:34:56] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[09:34:56] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[09:34:56] [Server thread/INFO]: Starting minecraft server version 1.15.2
-[09:34:56] [Server thread/INFO]: Loading properties
-[09:34:56] [Server thread/INFO]: Default game type: SURVIVAL
-[09:34:56] [Server thread/INFO]: Generating keypair
-[09:34:56] [Server console handler/ERROR]: Exception handling console input
+[14:56:53] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14:56:53] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:56:53] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:56:53] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14:56:53] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14:56:53] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[14:56:53] [Server thread/INFO]: Loading properties
+[14:56:53] [Server thread/INFO]: Default game type: SURVIVAL
+[14:56:53] [Server thread/INFO]: Generating keypair
+[14:56:53] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: Bad file descriptor
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:272) ~[?:?]
@@ -21,23 +21,170 @@ java.io.IOException: Bad file descriptor
 	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
 	at wd$2.run(SourceFile:110) [minecraft_server.1.15.2.jar:?]
-[09:34:56] [Server thread/INFO]: Starting Minecraft server on *:25565
-[09:34:56] [Server thread/INFO]: Using epoll channel type
-[09:34:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[09:34:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[09:34:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[09:34:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[09:34:56] [Server thread/INFO]: Preparing level "world"
-[09:34:57] [Server thread/INFO]: Reloading ResourceManager: Default
-[09:35:03] [Server thread/INFO]: Loaded 6 recipes
-[09:35:03] [Server thread/INFO]: Loaded 825 advancements
-[09:35:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[09:35:04] [Server thread/INFO]: Preparing spawn area: 0%
-[09:35:04] [Server thread/INFO]: Preparing spawn area: 0%
-[09:35:04] [Server thread/INFO]: Preparing spawn area: 0%
-[09:35:05] [Server thread/INFO]: Time elapsed: 1547 ms
-[09:35:05] [Server thread/INFO]: Done (8.389s)! For help, type "help"
-[09:35:05] [Server thread/INFO]: god[/183.237.66.137:58770] logged in with entity id 186 at (254.0140262414347, 105.54960068302633, -86.32511474549278)
-[09:35:05] [Server thread/INFO]: god joined the game
-[10:42:43] [Server thread/INFO]: god lost connection: Disconnected
-[10:42:43] [Server thread/INFO]: god left the game
+[14:56:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:56:53] [Server thread/INFO]: Using epoll channel type
+[14:56:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:56:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:56:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:56:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:56:54] [Server thread/INFO]: Preparing level "world"
+[14:56:54] [Server thread/INFO]: Reloading ResourceManager: Default
+[14:57:00] [Server thread/INFO]: Loaded 6 recipes
+[14:57:01] [Server thread/INFO]: Loaded 825 advancements
+[14:57:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:57:02] [Server thread/INFO]: Preparing spawn area: 0%
+[14:57:02] [Server thread/INFO]: Preparing spawn area: 0%
+[14:57:02] [Server thread/INFO]: Preparing spawn area: 0%
+[14:57:02] [Server thread/INFO]: Preparing spawn area: 81%
+[14:57:02] [Server thread/INFO]: Time elapsed: 1658 ms
+[14:57:02] [Server thread/INFO]: Done (8.892s)! For help, type "help"
+[14:57:07] [Server thread/INFO]: Leo[/45.195.17.5:23179] logged in with entity id 225 at (280.173018368708, 62.53350079609499, -68.30000001192099)
+[14:57:07] [Server thread/INFO]: Leo joined the game
+[14:57:29] [Server thread/INFO]: cloud[/182.97.118.209:19583] logged in with entity id 291 at (247.4526695489096, 75.0, -44.1507482946957)
+[14:57:29] [Server thread/INFO]: cloud joined the game
+[14:58:01] [Server thread/INFO]: cloud lost connection: Timed out
+[14:58:01] [Server thread/INFO]: cloud left the game
+[14:58:25] [Server thread/INFO]: cloud[/103.129.252.237:16069] logged in with entity id 395 at (247.4526695489096, 75.0, -44.1507482946957)
+[14:58:25] [Server thread/INFO]: cloud joined the game
+[14:58:56] [Server thread/INFO]: cloud fell from a high place
+[14:59:05] [Server thread/INFO]: cloud fell from a high place
+[14:59:16] [Server thread/INFO]: cloud fell from a high place
+[14:59:24] [Server thread/INFO]: cloud fell from a high place
+[15:00:27] [Server thread/INFO]: cloud fell from a high place
+[15:00:45] [Server thread/INFO]: cloud fell from a high place
+[15:00:59] [Server thread/INFO]: cloud fell from a high place
+[15:01:28] [Server thread/INFO]: cloud fell from a high place
+[15:01:36] [Server thread/INFO]: Shinku[/183.237.66.137:57754] logged in with entity id 853 at (230.75465753856093, 76.0, -59.2103394091031)
+[15:01:36] [Server thread/INFO]: Shinku joined the game
+[15:03:15] [Server thread/INFO]: cloud tried to swim in lava
+[15:03:34] [Server thread/INFO]: cloud fell from a high place
+[15:06:39] [Server thread/INFO]: cloud fell from a high place
+[15:06:42] [Server thread/INFO]: Shinku fell from a high place
+[15:07:03] [Server thread/WARN]: cloud moved too quickly! 9.190728576665549,-2.7671188632615156,15.403539059431992
+[15:07:54] [Server thread/INFO]: Shinku drowned
+[15:08:01] [Server thread/INFO]: cloud tried to swim in lava
+[15:09:27] [Server thread/INFO]: cloud tried to swim in lava
+[15:10:04] [Server thread/INFO]: Shinku tried to swim in lava
+[15:10:58] [Server thread/INFO]: <Shinku> 带我去你去过的地方
+[15:11:12] [Server thread/INFO]: <cloud> ?哪个地方
+[15:11:24] [Server thread/INFO]: cloud drowned
+[15:11:31] [Server thread/INFO]: Shinku lost connection: You logged in from another location
+[15:11:31] [Server thread/INFO]: Shinku left the game
+[15:11:31] [Server thread/INFO]: Shinku[/183.237.66.137:53757] logged in with entity id 3463 at (249.2640388233582, 77.0, -68.67183829257499)
+[15:11:31] [Server thread/INFO]: Shinku joined the game
+[15:12:02] [Server thread/INFO]: Shinku lost connection: Timed out
+[15:12:02] [Server thread/INFO]: Shinku left the game
+[15:12:30] [Server thread/INFO]: Shinku[/183.237.66.137:54009] logged in with entity id 3547 at (249.2640388233582, 77.0, -68.67183829257499)
+[15:12:30] [Server thread/INFO]: Shinku joined the game
+[15:13:00] [Server thread/INFO]: Shinku lost connection: Timed out
+[15:13:00] [Server thread/INFO]: Shinku left the game
+[15:14:44] [Server thread/INFO]: cloud fell from a high place
+[15:16:24] [Server thread/INFO]: cloud drowned
+[15:16:49] [Server thread/WARN]: cloud moved too quickly! -1.6527807957953087,-1.949652698950672,-18.528172332480835
+[15:17:04] [Server thread/WARN]: cloud moved too quickly! 0.5212329260137949,-1.7420995252035993,-18.057521672684288
+[15:17:05] [Server thread/WARN]: Fetching packet for removed entity awb['Air'/5561, l='world', x=353.51, y=71.00, z=-842.58]
+[15:17:44] [Server thread/INFO]: cloud drowned
+[15:18:22] [Server thread/WARN]: cloud moved too quickly! 3.26173353419631,-1.946092111883786,-18.41477881896037
+[15:18:41] [Server thread/INFO]: cloud fell from a high place
+[15:18:48] [Server thread/INFO]: Leo has reached the goal [Sky's the Limit]
+[15:18:55] [Server thread/INFO]: cloud fell from a high place
+[15:18:56] [Server thread/FATAL]: Error executing task on Server
+java.lang.NullPointerException: null
+	at ww.b(SourceFile:201) ~[minecraft_server.1.15.2.jar:?]
+	at wp.a(SourceFile:904) ~[minecraft_server.1.15.2.jar:?]
+	at xb.a(SourceFile:479) ~[minecraft_server.1.15.2.jar:?]
+	at xv.a(SourceFile:848) ~[minecraft_server.1.15.2.jar:?]
+	at qd.a(SourceFile:122) ~[minecraft_server.1.15.2.jar:?]
+	at qd$a.a(SourceFile:56) ~[minecraft_server.1.15.2.jar:?]
+	at lv.a(SourceFile:21) ~[minecraft_server.1.15.2.jar:?]
+	at tb.run(SourceFile:18) ~[minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:144) [minecraft_server.1.15.2.jar:?]
+	at aiw.c(SourceFile:23) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.b(SourceFile:743) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.c(SourceFile:138) [minecraft_server.1.15.2.jar:?]
+	at ais.w(SourceFile:118) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.ba(SourceFile:725) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:719) [minecraft_server.1.15.2.jar:?]
+	at ais.c(SourceFile:127) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:704) [minecraft_server.1.15.2.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:659) [minecraft_server.1.15.2.jar:?]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
+[15:19:04] [Server thread/INFO]: cloud fell from a high place
+[15:20:08] [Server thread/INFO]: cloud tried to swim in lava
+[15:21:37] [Server thread/INFO]: Leo fell from a high place
+[15:21:54] [Server thread/INFO]: cloud fell from a high place
+[15:22:33] [Server thread/INFO]: cloud fell from a high place
+[15:24:54] [Server thread/INFO]: Leo tried to swim in lava
+[15:24:55] [Server thread/INFO]: cloud tried to swim in lava
+[15:26:15] [Server thread/INFO]: cloud fell from a high place
+[15:26:20] [Server thread/INFO]: Leo fell from a high place
+[15:27:03] [Server thread/WARN]: cloud moved too quickly! -1.6121677279862752,-2.3581577714438424,-18.282397057489874
+[15:27:48] [Server thread/INFO]: cloud drowned
+[15:28:30] [Server thread/INFO]: Leo fell from a high place
+[15:28:37] [Server thread/INFO]: cloud fell from a high place
+[15:30:59] [Server thread/INFO]: cloud went up in flames
+[15:31:38] [Server thread/INFO]: Leo was poked to death by a sweet berry bush
+[15:35:46] [Server thread/INFO]: cloud was poked to death by a sweet berry bush
+[15:39:10] [Server thread/INFO]: Leo went up in flames
+[15:39:11] [Server thread/INFO]: cloud went up in flames
+[15:40:22] [Server thread/INFO]: Leo tried to swim in lava
+[15:41:41] [Server thread/INFO]: Leo fell from a high place
+[15:42:04] [Server thread/WARN]: Leo moved too quickly! 18.244207268083414,-1.5560789769283758,-3.7366484246564937
+[15:43:05] [Server thread/INFO]: cloud has made the advancement [Not Today, Thank You]
+[15:44:07] [Server thread/INFO]: Leo has made the advancement [Not Today, Thank You]
+[15:44:30] [Server thread/INFO]: cloud has made the advancement [Voluntary Exile]
+[15:44:40] [Server thread/INFO]: cloud was shot by Pillager
+[15:44:48] [Server thread/INFO]: Leo has made the advancement [Voluntary Exile]
+[15:45:33] [Server thread/INFO]: Leo was shot by Pillager
+[15:45:33] [Server thread/INFO]: cloud fell from a high place
+[15:47:39] [Server thread/INFO]: cloud has made the advancement [Ol' Betsy]
+[15:47:43] [Server thread/INFO]: cloud has made the advancement [Who's the Pillager Now?]
+[15:50:19] [Server thread/INFO]: cloud was shot by Pillager
+[15:50:38] [Server thread/INFO]: Shinku[/183.237.66.137:62525] logged in with entity id 19327 at (249.2640388233582, 77.0, -68.67183829257499)
+[15:50:38] [Server thread/INFO]: Shinku joined the game
+[15:50:41] [Server thread/INFO]: Leo was shot by Pillager
+[15:50:42] [Server thread/INFO]: cloud fell from a high place
+[15:50:54] [Server thread/INFO]: Shinku lost connection: Timed out
+[15:50:54] [Server thread/INFO]: Shinku left the game
+[15:50:59] [Server thread/INFO]: Shinku[/183.237.66.137:62540] logged in with entity id 19470 at (249.2640388233582, 77.0, -68.67183829257499)
+[15:50:59] [Server thread/INFO]: Shinku joined the game
+[15:51:18] [Server thread/INFO]: Shinku tried to swim in lava
+[15:52:45] [Server thread/INFO]: Leo fell from a high place
+[15:52:49] [Server thread/INFO]: cloud fell from a high place
+[15:53:00] [Server thread/INFO]: Leo fell from a high place
+[15:53:11] [Server thread/INFO]: Leo fell from a high place
+[15:53:21] [Server thread/INFO]: Leo fell from a high place
+[15:56:03] [Server thread/INFO]: Shinku has made the advancement [Ol' Betsy]
+[15:56:05] [Server thread/INFO]: Leo tried to swim in lava
+[15:56:26] [Server thread/INFO]: Leo fell from a high place
+[15:57:04] [Server thread/WARN]: Leo moved too quickly! 13.906846903561245,-2.2263894511202693,-10.528466704957111
+[15:58:18] [Server thread/INFO]: Shinku drowned
+[15:59:52] [Server thread/INFO]: Leo burned to death
+[16:01:01] [Server thread/INFO]: cloud drowned
+[16:02:04] [Server thread/WARN]: Shinku moved too quickly! 11.326731552116712,-2.662440127783981,-13.646603133281246
+[16:02:04] [Server thread/WARN]: Leo moved too quickly! 6.922138363084628,-2.0468106822376058,-15.89916690434518
+[16:04:29] [Server thread/INFO]: cloud was shot by Skeleton
+[16:05:37] [Server thread/INFO]: Leo was shot by Skeleton
+[16:05:51] [Server thread/INFO]: Shinku was shot by Skeleton
+[16:07:18] [Server thread/INFO]: Shinku fell from a high place
+[16:07:31] [Server thread/INFO]: Shinku fell from a high place
+[16:07:45] [Server thread/INFO]: Leo fell from a high place
+[16:07:48] [Server thread/INFO]: Shinku fell from a high place
+[16:08:06] [Server thread/INFO]: cloud was slain by Zombie
+[16:08:09] [Server thread/INFO]: Shinku lost connection: Disconnected
+[16:08:09] [Server thread/INFO]: Shinku left the game
+[16:08:29] [Server thread/INFO]: cloud lost connection: Disconnected
+[16:08:29] [Server thread/INFO]: cloud left the game
+[16:09:21] [Server thread/INFO]: god[/183.237.66.137:62947] logged in with entity id 28595 at (232.3242797776889, 76.0, -27.223182976106166)
+[16:09:21] [Server thread/INFO]: god joined the game
+[16:09:36] [Server thread/INFO]: god lost connection: Timed out
+[16:09:36] [Server thread/INFO]: god left the game
+[16:09:44] [Server thread/INFO]: god[/183.237.66.137:62957] logged in with entity id 28750 at (232.3242797776889, 76.7531999805212, -27.223182976106166)
+[16:09:44] [Server thread/INFO]: god joined the game
+[16:09:57] [Server thread/INFO]: Leo fell from a high place
+[16:10:02] [Server thread/INFO]: Leo lost connection: Disconnected
+[16:10:02] [Server thread/INFO]: Leo left the game
+[16:16:20] [Server thread/WARN]: god moved too quickly! 5.832195808509283,0.0,-8.448630031589559
+[16:18:49] [Server thread/WARN]: god moved too quickly! 9.620161744123834E-4,-11.064980402202252,-1.2593402902044275
+[16:24:21] [Server thread/INFO]: god lost connection: Disconnected
+[16:24:21] [Server thread/INFO]: god left the game
