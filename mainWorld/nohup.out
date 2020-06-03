@@ -5315,3 +5315,46 @@ java.io.IOException: Bad file descriptor
 [15:13:04] [Server thread/INFO]: Leo joined the game
 [15:13:34] [Server thread/INFO]: Leo lost connection: Disconnected
 [15:13:34] [Server thread/INFO]: Leo left the game
+[09:34:56] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[09:34:56] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09:34:56] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09:34:56] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[09:34:56] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09:34:56] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[09:34:56] [Server thread/INFO]: Loading properties
+[09:34:56] [Server thread/INFO]: Default game type: SURVIVAL
+[09:34:56] [Server thread/INFO]: Generating keypair
+[09:34:56] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:272) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at wd$2.run(SourceFile:110) [minecraft_server.1.15.2.jar:?]
+[09:34:56] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:34:56] [Server thread/INFO]: Using epoll channel type
+[09:34:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:34:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:34:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:34:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:34:56] [Server thread/INFO]: Preparing level "world"
+[09:34:57] [Server thread/INFO]: Reloading ResourceManager: Default
+[09:35:03] [Server thread/INFO]: Loaded 6 recipes
+[09:35:03] [Server thread/INFO]: Loaded 825 advancements
+[09:35:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:35:04] [Server thread/INFO]: Preparing spawn area: 0%
+[09:35:04] [Server thread/INFO]: Preparing spawn area: 0%
+[09:35:04] [Server thread/INFO]: Preparing spawn area: 0%
+[09:35:05] [Server thread/INFO]: Time elapsed: 1547 ms
+[09:35:05] [Server thread/INFO]: Done (8.389s)! For help, type "help"
+[09:35:05] [Server thread/INFO]: god[/183.237.66.137:58770] logged in with entity id 186 at (254.0140262414347, 105.54960068302633, -86.32511474549278)
+[09:35:05] [Server thread/INFO]: god joined the game
+[10:42:43] [Server thread/INFO]: god lost connection: Disconnected
+[10:42:43] [Server thread/INFO]: god left the game

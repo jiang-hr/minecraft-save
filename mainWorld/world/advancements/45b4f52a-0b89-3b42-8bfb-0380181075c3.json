@@ -335,6 +335,12 @@
     },
     "done": true
   },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2020-06-03 10:02:18 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/stone_button": {
     "criteria": {
       "has_stone": "2020-05-31 21:13:14 +0800"
@@ -747,7 +753,9 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:zombie_pigman": "2020-06-01 15:05:43 +0800",
-      "minecraft:spider": "2020-06-01 18:26:41 +0800"
+      "minecraft:spider": "2020-06-01 18:26:41 +0800",
+      "minecraft:creeper": "2020-06-03 10:19:21 +0800",
+      "minecraft:zombie": "2020-06-03 10:18:40 +0800"
     },
     "done": false
   },
