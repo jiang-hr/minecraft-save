@@ -375,3 +375,51 @@ java.io.IOException: Bad file descriptor
 [20:06:00] [Server thread/INFO]: god joined the game
 [20:06:30] [Server thread/INFO]: god lost connection: Timed out
 [20:06:30] [Server thread/INFO]: god left the game
+[21:06:18] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21:06:18] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:06:18] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:06:18] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[21:06:18] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[21:06:18] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[21:06:18] [Server thread/INFO]: Loading properties
+[21:06:18] [Server thread/INFO]: Default game type: SURVIVAL
+[21:06:18] [Server thread/INFO]: Generating keypair
+[21:06:18] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:272) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:297) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:181) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at wd$2.run(SourceFile:110) [minecraft_server.1.15.2.jar:?]
+[21:06:19] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:06:19] [Server thread/INFO]: Using epoll channel type
+[21:06:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:06:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:06:19] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:06:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:06:19] [Server thread/INFO]: Preparing level "world"
+[21:06:19] [Server thread/INFO]: Reloading ResourceManager: Default
+[21:06:26] [Server thread/INFO]: Loaded 6 recipes
+[21:06:26] [Server thread/INFO]: Loaded 825 advancements
+[21:06:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:06:27] [Server thread/INFO]: Preparing spawn area: 0%
+[21:06:27] [Server thread/INFO]: Preparing spawn area: 0%
+[21:06:27] [Server thread/INFO]: Preparing spawn area: 0%
+[21:06:28] [Server thread/INFO]: Preparing spawn area: 68%
+[21:06:28] [Server thread/INFO]: Time elapsed: 1657 ms
+[21:06:28] [Server thread/INFO]: Done (8.739s)! For help, type "help"
+[12:50:07] [Server thread/INFO]: 冷月仙[/183.237.66.137:50152] logged in with entity id 213 at (192.7162672665158, 66.0, -95.83697059099438)
+[12:50:07] [Server thread/INFO]: 冷月仙 joined the game
+[12:50:22] [Server thread/INFO]: 冷月仙 lost connection: You logged in from another location
+[12:50:22] [Server thread/INFO]: 冷月仙 left the game
+[12:50:22] [Server thread/INFO]: 冷月仙[/183.237.66.137:50158] logged in with entity id 283 at (192.7162672665158, 66.0, -95.83697059099438)
+[12:50:22] [Server thread/INFO]: 冷月仙 joined the game
+[12:50:30] [Server thread/INFO]: 冷月仙 lost connection: Disconnected
+[12:50:30] [Server thread/INFO]: 冷月仙 left the game
