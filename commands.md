@@ -1,3 +1,8 @@
+# 常用命令表大全
+
+> 在服务器非nohup模式下能够输入并直接执行这些命令。
+
+```c#
 /advancement (grant|revoke)
 /ban <targets> [<reason>]
 /ban-ip <target> [<reason>]
@@ -19,13 +24,18 @@
 /forceload (add|query|remove)
 /function <name>
 /gamemode (adventure|creative|spectator|survival)
-/gamerule (announceAdvancements|commandBlockOutput|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|keepInventory|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobGriefing|naturalRegeneration|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|spawnRadius|spectatorsGenerateChunks)
+/gamerule (announceAdvancements|commandBlockOutput|disableElytraMovementCheck|disableRaids|doDaylightCycle
+       	|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning
+           |doTileDrops|doTraderSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|keepInventory|logAdminCommands
+           |maxCommandChainLength|maxEntityCramming|mobGriefing|naturalRegeneration|randomTickSpeed|reducedDebugInfo
+           |sendCommandFeedback|showDeathMessages|spawnRadius|spectatorsGenerateChunks)
 /give <targets> <item> [<count>]
 /help [<command>]
 /kick <targets> [<reason>]
 /kill [<targets>]
 /list [uuids]
-/locate (Buried_Treasure|Desert_Pyramid|EndCity|Fortress|Igloo|Jungle_Pyramid|Mansion|Mineshaft|Monument|Ocean_Ruin|Pillager_Outpost|Shipwreck|Stronghold|Swamp_Hut|Village)
+/locate (Buried_Treasure|Desert_Pyramid|EndCity|Fortress|Igloo|Jungle_Pyramid|Mansion|Mineshaft|Monument|Ocean_Ruin
+         |Pillager_Outpost|Shipwreck|Stronghold|Swamp_Hut|Village)
 /loot (give|insert|replace|spawn)
 /me <action>
 /msg <targets> <message>
@@ -69,3 +79,4 @@
 /whitelist (add|list|off|on|reload|remove)
 /worldborder (add|center|damage|get|set|warning)
 /xp -> experience
+```
