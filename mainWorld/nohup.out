@@ -471,3 +471,53 @@ java.io.IOException: Bad file descriptor
 [12:58:18] [Server thread/INFO]: Shinku joined the game
 [13:00:07] [Server thread/INFO]: Shinku lost connection: Disconnected
 [13:00:07] [Server thread/INFO]: Shinku left the game
+[03:59:49] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03:59:49] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03:59:49] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03:59:49] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03:59:49] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03:59:49] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[03:59:49] [Server thread/INFO]: Loading properties
+[03:59:49] [Server thread/INFO]: Default game type: SURVIVAL
+[03:59:49] [Server thread/INFO]: Generating keypair
+[03:59:49] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:279) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at wd$2.run(SourceFile:110) [minecraft_server.1.15.2.jar:?]
+[03:59:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:59:49] [Server thread/INFO]: Using epoll channel type
+[03:59:50] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:59:50] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:59:50] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:59:50] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:59:50] [Server thread/INFO]: Preparing level "world"
+[03:59:50] [Server thread/INFO]: Reloading ResourceManager: Default
+[04:00:16] [Server thread/INFO]: Loaded 6 recipes
+[04:00:21] [Server thread/INFO]: Loaded 825 advancements
+[04:00:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[04:00:25] [Server thread/INFO]: Preparing spawn area: 0%
+[04:00:25] [Server thread/INFO]: Preparing spawn area: 0%
+[04:00:25] [Server thread/INFO]: Preparing spawn area: 0%
+[04:00:25] [Server thread/INFO]: Preparing spawn area: 0%
+[04:00:25] [Server thread/INFO]: Preparing spawn area: 0%
+[04:00:25] [Server thread/INFO]: Preparing spawn area: 29%
+[04:00:26] [Server thread/INFO]: Time elapsed: 3094 ms
+[04:00:26] [Server thread/INFO]: Done (36.025s)! For help, type "help"
+[04:09:19] [Server thread/INFO]: Shinku[/183.237.66.137:61378] logged in with entity id 237 at (235.50763962343774, 77.02442408821369, -32.14744345304035)
+[04:09:19] [Server thread/INFO]: Shinku joined the game
+[04:11:20] [Server thread/INFO]: Shinku lost connection: Disconnected
+[04:11:20] [Server thread/INFO]: Shinku left the game
+[04:13:40] [Server thread/INFO]: Shinku[/183.237.66.137:61635] logged in with entity id 573 at (250.3097563234482, 124.0, -81.16423070052731)
+[04:13:40] [Server thread/INFO]: Shinku joined the game
+[04:16:27] [Server thread/INFO]: Shinku lost connection: Disconnected
+[04:16:27] [Server thread/INFO]: Shinku left the game
