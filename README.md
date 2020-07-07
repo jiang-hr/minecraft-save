@@ -2,6 +2,10 @@
 
 地图同步至github保管。
 
+* ### :link:[命令大全](./commands.md)
+
+
+
 ------
 
 
@@ -28,7 +32,7 @@
 
 
 
-![out of memory](https://raw.githubusercontent.com/jiang-hr/minecraft-save/master/image/out of memory.png)
+![out of memory](https://raw.githubusercontent.com/jiang-hr/minecraft-save/master/image/out%20of%20memory.png)
 
 
 
@@ -41,10 +45,6 @@
 ##### 阴森的要塞
 
 ![阴森的要塞](https://raw.githubusercontent.com/jiang-hr/minecraft-save/master/image/阴森的要塞.png)
-
-
-
-
 
 
 
