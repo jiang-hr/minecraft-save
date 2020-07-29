@@ -1087,3 +1087,156 @@ java.lang.NullPointerException: null
 [00:28:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
 [00:28:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
 [00:28:09] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:13:33] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:13:33] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:13:33] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:13:33] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:13:33] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:13:33] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[16:13:33] [Server thread/INFO]: Loading properties
+[16:13:33] [Server thread/INFO]: Default game type: SURVIVAL
+[16:13:33] [Server thread/INFO]: Generating keypair
+[16:13:33] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:279) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at wd$2.run(SourceFile:110) [minecraft_server.1.15.2.jar:?]
+[16:13:34] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:13:34] [Server thread/INFO]: Using epoll channel type
+[16:13:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:13:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:13:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:13:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:13:34] [Server thread/INFO]: Preparing level "world"
+[16:13:34] [Server thread/INFO]: Reloading ResourceManager: Default
+[16:14:10] [Server thread/INFO]: Loaded 6 recipes
+[16:14:10] [Server thread/INFO]: Loaded 825 advancements
+[16:14:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:14:12] [Server thread/INFO]: Preparing spawn area: 0%
+[16:14:12] [Server thread/INFO]: Preparing spawn area: 0%
+[16:14:12] [Server thread/INFO]: Preparing spawn area: 0%
+[16:14:12] [Server thread/INFO]: Preparing spawn area: 0%
+[16:14:13] [Server thread/INFO]: Preparing spawn area: 0%
+[16:14:13] [Server thread/INFO]: Preparing spawn area: 59%
+[16:14:13] [Server thread/INFO]: Time elapsed: 2971 ms
+[16:14:13] [Server thread/INFO]: Done (39.147s)! For help, type "help"
+[18:30:34] [Server thread/INFO]: Shinku[/183.237.66.137:58983] logged in with entity id 186 at (254.02532743429697, 124.0, -84.98762189359073)
+[18:30:34] [Server thread/INFO]: Shinku joined the game
+[18:31:11] [Server thread/INFO]: Shinku lost connection: Disconnected
+[18:31:11] [Server thread/INFO]: Shinku left the game
+[18:33:24] [Server thread/INFO]: Shinku[/183.237.66.137:59177] logged in with entity id 298 at (246.8571216122935, 124.0, -84.15128200837651)
+[18:33:24] [Server thread/INFO]: Shinku joined the game
+[18:34:01] [Server thread/INFO]: Shinku lost connection: Disconnected
+[18:34:01] [Server thread/INFO]: Shinku left the game
+[18:35:30] [Server thread/INFO]: Shinku[/183.237.66.137:59292] logged in with entity id 420 at (252.98624574657293, 74.0, -30.07256755267041)
+[18:35:30] [Server thread/INFO]: Shinku joined the game
+[18:35:39] [Server thread/INFO]: Shinku lost connection: Disconnected
+[18:35:39] [Server thread/INFO]: Shinku left the game
+[18:38:29] [Server thread/INFO]: Shinku[/183.237.66.137:61634] logged in with entity id 427 at (252.98624574657293, 74.0, -30.07256755267041)
+[18:38:29] [Server thread/INFO]: Shinku joined the game
+[18:39:22] [Server thread/INFO]: Shinku lost connection: Disconnected
+[18:39:23] [Server thread/INFO]: Shinku left the game
+[18:40:37] [Server thread/INFO]: God[/183.237.66.137:59536] logged in with entity id 531 at (175.5, 64.0, -100.5)
+[18:40:37] [Server thread/INFO]: God joined the game
+[18:41:14] [Server thread/WARN]: Mismatch in destroy block pos: fk{x=187, y=64, z=-75} fk{x=184, y=62, z=-80}
+[18:41:14] [Server thread/WARN]: Mismatch in destroy block pos: fk{x=187, y=64, z=-75} fk{x=184, y=62, z=-80}
+[18:41:24] [Server thread/INFO]: God lost connection: Disconnected
+[18:41:24] [Server thread/INFO]: God left the game
+[18:43:42] [Server thread/INFO]: god[/183.237.66.137:59660] logged in with entity id 719 at (251.84606055348297, 86.11650136792812, -72.43004119619135)
+[18:43:42] [Server thread/INFO]: god joined the game
+[18:46:35] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/1361, l='world', x=281.53, y=48.71, z=-173.53]
+[18:46:35] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/1387, l='world', x=282.60, y=50.50, z=-168.47]
+[18:46:35] [Server thread/WARN]: Fetching packet for removed entity awb['Andesite'/1388, l='world', x=281.46, y=44.33, z=-167.26]
+[18:46:35] [Server thread/WARN]: Fetching packet for removed entity awb['Dirt'/1389, l='world', x=286.26, y=48.48, z=-170.62]
+[18:46:35] [Server thread/WARN]: Fetching packet for removed entity awb['Diorite'/1390, l='world', x=278.33, y=46.62, z=-170.31]
+[18:46:35] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/1391, l='world', x=279.67, y=47.41, z=-166.72]
+[18:46:35] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/1392, l='world', x=283.44, y=47.75, z=-166.40]
+[18:46:35] [Server thread/WARN]: Fetching packet for removed entity awb['Andesite'/1393, l='world', x=282.60, y=45.63, z=-168.38]
+[18:46:35] [Server thread/WARN]: Fetching packet for removed entity awb['Andesite'/1394, l='world', x=280.34, y=43.49, z=-167.55]
+[18:46:35] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/1395, l='world', x=278.61, y=43.43, z=-169.59]
+[18:46:35] [Server thread/WARN]: Fetching packet for removed entity awb['Granite'/1396, l='world', x=278.67, y=48.42, z=-173.28]
+[18:46:35] [Server thread/WARN]: Fetching packet for removed entity awb['Diorite'/1397, l='world', x=277.62, y=46.35, z=-169.75]
+[18:46:35] [Server thread/WARN]: Fetching packet for removed entity awb['Andesite'/1424, l='world', x=278.29, y=52.70, z=-169.66]
+[18:46:35] [Server thread/WARN]: Fetching packet for removed entity awb['Granite'/1425, l='world', x=273.36, y=54.26, z=-173.48]
+[18:46:35] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/1427, l='world', x=274.34, y=54.42, z=-170.56]
+[18:46:35] [Server thread/WARN]: Fetching packet for removed entity awb['Andesite'/1428, l='world', x=273.39, y=52.35, z=-170.50]
+[18:46:35] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/1429, l='world', x=275.36, y=53.34, z=-176.33]
+[18:46:36] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/1487, l='world', x=278.58, y=38.60, z=-174.58]
+[18:46:36] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/1489, l='world', x=278.59, y=42.35, z=-176.30]
+[18:46:36] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/1490, l='world', x=273.46, y=42.71, z=-176.59]
+[18:46:36] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/1491, l='world', x=275.35, y=41.52, z=-176.40]
+[18:46:36] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/1492, l='world', x=274.41, y=39.64, z=-172.67]
+[18:46:36] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/1493, l='world', x=277.58, y=35.30, z=-171.71]
+[18:46:36] [Server thread/WARN]: Fetching packet for removed entity awb['Andesite'/1494, l='world', x=275.39, y=39.30, z=-171.37]
+[18:46:36] [Server thread/WARN]: Fetching packet for removed entity awb['Coal'/1495, l='world', x=278.26, y=37.59, z=-175.73]
+[18:46:36] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/1496, l='world', x=276.45, y=34.37, z=-171.29]
+[18:46:36] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/1497, l='world', x=278.48, y=35.75, z=-173.29]
+[18:46:36] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/1498, l='world', x=274.46, y=35.33, z=-174.57]
+[18:46:36] [Server thread/WARN]: Fetching packet for removed entity awb['Andesite'/1509, l='world', x=273.48, y=37.41, z=-176.30]
+[18:46:36] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/1511, l='world', x=273.63, y=35.30, z=-174.43]
+[18:46:36] [Server thread/WARN]: Fetching packet for removed entity awb['Andesite'/1512, l='world', x=276.63, y=36.71, z=-176.47]
+[18:53:17] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/2366, l='world', x=187.50, y=54.58, z=-248.33]
+[18:53:17] [Server thread/WARN]: Fetching packet for removed entity awb['Granite'/2367, l='world', x=188.44, y=54.43, z=-245.55]
+[18:53:19] [Server thread/WARN]: Fetching packet for removed entity awb['Andesite'/2417, l='world', x=184.50, y=45.36, z=-244.35]
+[18:53:19] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/2418, l='world', x=182.58, y=45.26, z=-245.55]
+[18:53:19] [Server thread/WARN]: Fetching packet for removed entity awb['Diorite'/2419, l='world', x=185.39, y=44.69, z=-245.67]
+[18:53:19] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/2420, l='world', x=183.72, y=44.52, z=-244.51]
+[18:53:20] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/2490, l='world', x=186.55, y=35.54, z=-247.63]
+[18:53:20] [Server thread/WARN]: Fetching packet for removed entity awb['Gravel'/2491, l='world', x=186.41, y=36.66, z=-241.65]
+[18:53:20] [Server thread/WARN]: Fetching packet for removed entity awb['Andesite'/2492, l='world', x=186.42, y=36.42, z=-246.28]
+[18:53:20] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/2493, l='world', x=184.73, y=39.46, z=-248.43]
+[18:53:20] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/2494, l='world', x=187.68, y=37.44, z=-244.42]
+[18:53:21] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/2552, l='world', x=182.28, y=32.67, z=-243.70]
+[18:57:11] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/3383, l='world', x=243.60, y=68.32, z=-48.49]
+[18:57:12] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/3414, l='world', x=242.32, y=64.27, z=-46.66]
+[18:57:12] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/3415, l='world', x=242.52, y=64.61, z=-41.56]
+[18:57:12] [Server thread/WARN]: Fetching packet for removed entity awb['Andesite'/3416, l='world', x=241.73, y=63.55, z=-45.68]
+[18:57:12] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/3417, l='world', x=242.63, y=62.50, z=-42.35]
+[18:57:12] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/3418, l='world', x=242.75, y=63.27, z=-46.49]
+[18:57:12] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/3422, l='world', x=244.45, y=67.29, z=-41.52]
+[18:57:12] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/3452, l='world', x=243.51, y=48.39, z=-45.64]
+[18:57:12] [Server thread/WARN]: Fetching packet for removed entity awb['Iron Ore'/3453, l='world', x=242.45, y=52.71, z=-43.49]
+[18:57:12] [Server thread/WARN]: Fetching packet for removed entity awb['Andesite'/3454, l='world', x=242.64, y=52.59, z=-45.74]
+[18:57:12] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/3455, l='world', x=242.37, y=48.62, z=-45.72]
+[18:57:12] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/3479, l='world', x=240.46, y=55.44, z=-44.53]
+[18:57:12] [Server thread/WARN]: Fetching packet for removed entity awb['Andesite'/3480, l='world', x=240.30, y=54.49, z=-43.69]
+[18:57:12] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/3481, l='world', x=244.36, y=56.26, z=-47.63]
+[18:57:13] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/3547, l='world', x=241.35, y=49.31, z=-47.41]
+[18:57:13] [Server thread/WARN]: Fetching packet for removed entity awb['Iron Ore'/3549, l='world', x=240.31, y=50.25, z=-46.72]
+[18:57:14] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/3572, l='world', x=243.46, y=37.53, z=-46.52]
+[18:57:14] [Server thread/WARN]: Fetching packet for removed entity awb['Granite'/3573, l='world', x=240.40, y=38.57, z=-43.65]
+[18:57:14] [Server thread/WARN]: Fetching packet for removed entity awb['Granite'/3579, l='world', x=241.55, y=35.49, z=-43.31]
+[18:57:14] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/3580, l='world', x=241.66, y=34.65, z=-46.56]
+[18:57:14] [Server thread/WARN]: Fetching packet for removed entity awb['Diorite'/3581, l='world', x=242.43, y=31.64, z=-44.33]
+[18:57:14] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/3582, l='world', x=241.70, y=34.52, z=-45.27]
+[18:57:14] [Server thread/WARN]: Fetching packet for removed entity awb['Coal'/3583, l='world', x=247.25, y=36.31, z=-42.65]
+[18:57:14] [Server thread/WARN]: Fetching packet for removed entity awb['Iron Ore'/3584, l='world', x=241.31, y=35.40, z=-46.73]
+[18:57:14] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/3585, l='world', x=241.69, y=34.72, z=-42.25]
+[18:57:16] [Server thread/WARN]: Fetching packet for removed entity awb['Diorite'/3697, l='world', x=245.52, y=14.54, z=-44.65]
+[18:57:16] [Server thread/WARN]: Fetching packet for removed entity awb['Coal'/3698, l='world', x=242.53, y=13.37, z=-43.63]
+[18:57:16] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/3699, l='world', x=244.41, y=13.71, z=-45.50]
+[18:57:16] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/3700, l='world', x=245.65, y=15.28, z=-47.73]
+[18:57:17] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/3755, l='world', x=242.62, y=8.61, z=-44.33]
+[18:57:17] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/3756, l='world', x=242.49, y=7.50, z=-43.54]
+[19:00:21] [Server thread/INFO]: god lost connection: Disconnected
+[19:00:21] [Server thread/INFO]: god left the game
+[19:03:18] [Server thread/INFO]: god[/183.237.66.137:50803] logged in with entity id 4169 at (239.41651938938728, 51.0, -40.990478996879936)
+[19:03:18] [Server thread/INFO]: god joined the game
+[19:28:00] [Server thread/INFO]: god lost connection: Disconnected
+[19:28:00] [Server thread/INFO]: god left the game
+[21:50:13] [Server thread/INFO]: /178.238.229.214:60008 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
+[21:50:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3649ms or 72 ticks behind
+[00:49:27] [Server thread/INFO]: /178.238.229.214:42640 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: readerIndex(1) + length(1) exceeds writerIndex(1): PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
+[14:59:35] [Server thread/INFO]: Stopping server
+[14:59:35] [Server thread/INFO]: Saving players
+[14:59:35] [Server thread/INFO]: Saving worlds
+[14:59:36] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
